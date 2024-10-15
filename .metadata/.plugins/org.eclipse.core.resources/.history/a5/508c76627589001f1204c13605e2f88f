@@ -1,0 +1,13 @@
+package com.proyectoWebServidor.quico_proyecto_spring_boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class QuicoProyectoSpringBootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(QuicoProyectoSpringBootApplication.class, args);
+	}
+
+}

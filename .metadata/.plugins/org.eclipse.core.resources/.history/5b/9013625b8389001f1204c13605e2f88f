@@ -1,0 +1,22 @@
+package com.proyectoWebServidor.quico_proyecto_spring_boot.srv;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.context.support.StaticApplicationContext;
+import org.springframework.stereotype.Service;
+
+import com.proyectoWebServidor.quico_proyecto_spring_boot.model.ram.Clientes;
+
+@Service
+public class LoginService {
+	
+	//ArrayList que guarda los clientes
+	private static List<Clientes> clientes = new ArrayList<Clientes>();
+
+	
+	static {
+		clientes.add(new Clientes("Quico", "Quicoquico", 20, "quico@gmail.com"));
+		
+	}
+}

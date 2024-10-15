@@ -1,0 +1,21 @@
+package com.proyectoWebServidor.quico_proyecto_spring_boot.mvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.proyectoWebServidor.quico_proyecto_spring_boot.model.ram.Pagina;
+
+@Controller
+public class incioController{
+	
+	private Pagina pagina = new Pagina("inicio", "inicio");
+	
+	@RequestMapping(value = "/pagina-inicio", method = RequestMethod.GET)
+	public String mostrarInicio(ModelMap model) {
+		model.put("pagina", pagina);
+		
+		return "pagina-inicio";
+	}
+}

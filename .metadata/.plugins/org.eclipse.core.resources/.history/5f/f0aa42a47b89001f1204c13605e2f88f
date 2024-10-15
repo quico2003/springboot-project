@@ -1,0 +1,13 @@
+<html>
+
+<head>
+<link>${pagina.getTitulo()}</title>
+</head>
+
+<body>
+
+<h1>holaaaa</h1>
+
+</body>
+
+</html>

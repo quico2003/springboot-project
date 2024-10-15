@@ -1,0 +1,6 @@
+package com.proyectoWebServidor.quico_proyecto_spring_boot.mvc;
+
+
+public class incioController{
+	
+}
